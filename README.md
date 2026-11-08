@@ -6,10 +6,42 @@
   [![Platform](https://img.shields.io/badge/Platform-macOS%2014.0%2B-blue.svg)](https://developer.apple.com/macos/)
   [![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange.svg)](https://swift.org)
   [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-emerald.svg)](https://developer.apple.com/xcode/swiftui/)
+  [![Release](https://img.shields.io/github/v/release/pj32v/ServerMonitor?color=blue)](https://github.com/pj32v/ServerMonitor/releases)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 </div>
 
+<p align="center">
+  <img src="docs/images/dashboard.jpg" alt="ServerMonitor 主界面预览" width="88%" />
+</p>
+
 **ServerMonitor** 是一款专为 macOS 设计的轻量级、高性能多服务器实时监控仪表盘与内置 SSH 终端工具。完全使用原生 **SwiftUI + AppKit** 构建，拥有现代感十足的 Liquid Glass 液态毛玻璃设计美学，提供直观的指标监控与顺滑的操作体验。
+
+---
+
+## 📸 界面预览 (Screenshots)
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="62%" align="center" valign="top">
+        <b>💻 内置交互式 SSH 终端 (PTY 实时会话)</b><br/><br/>
+        <img src="docs/images/terminal.jpg" alt="SSH 远程终端" width="100%" />
+      </td>
+      <td width="38%" align="center" valign="top">
+        <b>🍏 原生菜单栏常驻监视器</b><br/><br/>
+        <img src="docs/images/menubar.png" alt="菜单栏看板与设置" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 📦 下载安装 (Download)
+
+前往 [GitHub Releases](https://github.com/pj32v/ServerMonitor/releases/latest) 下载最新正式安装包：
+- **`ServerMonitor-v1.0.0-macOS.dmg`**（推荐）：双击打开并将应用拖入“应用程序”文件夹即可完成安装。
+- **`ServerMonitor-v1.0.0-macOS.zip`**：免安装压缩包，解压后双击即可运行。
 
 ---
 
@@ -61,7 +93,7 @@
 
 1. 克隆代码仓库：
    ```bash
-   git clone https://github.com/your-username/ServerMonitor.git
+   git clone https://github.com/pj32v/ServerMonitor.git
    cd ServerMonitor
    ```
 

@@ -6,6 +6,7 @@ xcuserdata/
 
 ## Build generated
 build/
+dist/
 DerivedData/
 *.moved-aside
 *.xccheckout
